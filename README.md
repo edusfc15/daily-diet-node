@@ -1,4 +1,10 @@
-[x] Deve ser possível criar um usuário
+# About the Project
+This project was created for learning purposes as part of the Node.js course from Rocketseat. It aims to develop practical skills in building RESTful APIs using Node.js while following best practices and covering essential backend development concepts.
+
+# Application Requirements
+Below are the functional requirements of the application:
+
+- [x] Deve ser possível criar um usuário
 - [x] Deve ser possível identificar o usuário entre as requisições
 - [x] Deve ser possível registrar uma refeição feita, com as seguintes informações:
     - *As refeições devem ser relacionadas a um usuário.*
