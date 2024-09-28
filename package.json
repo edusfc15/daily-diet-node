@@ -1,0 +1,42 @@
+{
+  "name": "daily-diet-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "knex": "tsx node_modules/knex/bin/cli.js",
+    "lint": "eslint --ext .ts src --fix",
+    "test": "vitest",
+    "build": "tsup src --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edusfc15/daily-diet-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edusfc15/daily-diet-node/issues"
+  },
+  "homepage": "https://github.com/edusfc15/daily-diet-node#readme",
+  "dependencies": {
+    "@fastify/cookie": "^10.0.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^22.7.4",
+    "@types/supertest": "^6.0.2",
+    "eslint": "^8.57.1",
+    "supertest": "^7.0.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.1"
+  }
+}
